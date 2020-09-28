@@ -1,0 +1,4 @@
+*{margin:0;padding:0;border:0}
+article,aside,details,figcaption,figure,footer,header,main,nav,section,summary{display:block}
+.heading{font-size:30px;font-family:Roboto,sans-serif;color:#050500;font-weight:500;text-transform:uppercase}
+h2{font-size:30px;font-family:Roboto,sans-serif;color:#050500;font-weight:500;text-transform:uppercase}
