@@ -1,3 +1,50 @@
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.heading2 {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 30px;
+  font-weight: 500;
+}
+.spantext {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ee252f;
+}
+.bodytext {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 18px;
+  font-weight: 400;
+}
+.link {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ulink {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.buttons {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -16,12 +63,32 @@ section,
 summary {
   display: block;
 }
-.heading {
-  font-size: 30px;
+nav ul li {
+  display: inline;
   font-family: 'Roboto', sans-serif;
   color: #050500;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  margin-left: 20px;
+}
+nav {
+  padding: 30px;
+  background-color: #f8df1f;
+}
+nav span {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ee252f;
+}
+span {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
+  color: #ee252f;
 }
 h2 {
   font-size: 30px;
@@ -29,4 +96,58 @@ h2 {
   color: #050500;
   font-weight: 500;
   text-transform: uppercase;
+}
+button {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background-color: #f8df1f;
+  padding: 10px;
+  margin-bottom: 5vw;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #050500;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5% 0 5% 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-image: url("img/banner-bg.png");
+}
+.burger {
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+}
+.bob {
+  display: flex;
+  align-items: center;
+  margin-right: 4vw;
+}
+.burger img {
+  width: 15vw;
+  padding: 10vw;
+}
+.bob img {
+  width: 15vw;
+  padding: 10vw;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #080801;
+  border-top: 5px solid #f8df1f;
+}
+footer img {
+  width: 25%;
+  padding: 25px;
 }
